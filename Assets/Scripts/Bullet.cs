@@ -8,6 +8,10 @@ public class Bullet : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision){
         //destroys bullet
-        Destroy(gameObject);
+        
+        if(collision.gameObject.TryGetComponent<HealthSystem>(out HealthSystem enemyComponent)){
+            enemyComponent.TakeDamage(1);
+        }
+        Destroy(gameObject); //destroy bullet
     }
 }
