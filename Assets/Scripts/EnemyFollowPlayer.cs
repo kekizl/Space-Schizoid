@@ -35,4 +35,10 @@ public class EnemyFollowPlayer : MonoBehaviour
             rb.velocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
         }
     }
+    void OnCollisionEnter2D(Collision2D collision){
+      
+        if(collision.gameObject.TryGetComponent<HealthSystem>(out HealthSystem enemyComponent)){
+            enemyComponent.TakeDamage(1);
+        }
+    }
 }

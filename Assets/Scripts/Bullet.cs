@@ -11,7 +11,10 @@ public class Bullet : MonoBehaviour
         
         if(collision.gameObject.TryGetComponent<HealthSystem>(out HealthSystem enemyComponent)){
             enemyComponent.TakeDamage(1);
+            Destroy(gameObject);
         }
-        Destroy(gameObject); //destroy bullet
+        else if (collision.gameObject.tag != "Bullet"){
+            Destroy(gameObject); //destroy bullet
+        }
     }
 }
