@@ -47,7 +47,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8806449155465339386}
   - component: {fileID: 2463711612992017001}
-  - component: {fileID: 1222463360745100202}
   - component: {fileID: 8749005298674543525}
   m_Layer: 0
   m_Name: Square
@@ -123,27 +122,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &1222463360745100202
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2533850234748764506}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &8749005298674543525
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -180,7 +158,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6435225759816345579}
   - component: {fileID: 2610806440143056406}
-  - component: {fileID: 5150283671292717069}
   - component: {fileID: 5815705006670822202}
   m_Layer: 0
   m_Name: Square (1)
@@ -256,27 +233,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5150283671292717069
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4009480192243649252}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &5815705006670822202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -313,7 +269,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8712395491467827517}
   - component: {fileID: 6259628305683408953}
-  - component: {fileID: 3673807463955139059}
   - component: {fileID: 2318569908957582108}
   m_Layer: 0
   m_Name: Square (2)
@@ -389,27 +344,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &3673807463955139059
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5809114777321919274}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &2318569908957582108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -446,7 +380,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3433378680291397295}
   - component: {fileID: 7508758008842218185}
-  - component: {fileID: 4687844511271472586}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -521,27 +454,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4687844511271472586
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5951987166984185334}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6837736796101246552
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +464,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1671464441636988976}
   - component: {fileID: 5616772602063538744}
-  - component: {fileID: 5318717385264731493}
   m_Layer: 0
   m_Name: Square (4)
   m_TagString: Untagged
@@ -627,27 +538,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5318717385264731493
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6837736796101246552}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &7415896166805255786
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +580,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2342538512967545923}
   - component: {fileID: 7389415173057048907}
-  - component: {fileID: 4075478609362415041}
   - component: {fileID: 2902278177877511750}
   m_Layer: 0
   m_Name: Square (5)
@@ -766,27 +655,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4075478609362415041
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9062516311027314451}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 10000
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &2902278177877511750
 BoxCollider2D:
   m_ObjectHideFlags: 0

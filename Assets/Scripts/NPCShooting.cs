@@ -26,7 +26,6 @@ public class NPCShooting : MonoBehaviour
     void NPCShoot(){
 
         if(Time.time > nextFire){
-            Debug.Log("test");
 
             GameObject bullet = Instantiate(bulletPrefab, npcPos.position, Quaternion.identity);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
