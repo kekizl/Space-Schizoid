@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
-    [SerializeField] float health, maxHealth = 10f;
+    [SerializeField] public float health; 
+    [SerializeField] public float maxHealth = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class HealthSystem : MonoBehaviour
     health -= damageAmount;
 
     if(health <= 0){
+        GetComponent<LootBag>().InstantiateLoot(transform.position);
         Destroy(gameObject);
     } 
     }

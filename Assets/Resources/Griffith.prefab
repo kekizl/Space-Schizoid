@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 3246598522227637395}
   - component: {fileID: 4409750252462969364}
   - component: {fileID: 9083036353941605638}
-  - component: {fileID: 4007908807604070662}
   - component: {fileID: 8364854356322095886}
   - component: {fileID: 1924554333794932721}
   - component: {fileID: 1401226456975913994}
   - component: {fileID: 5834027853884178972}
+  - component: {fileID: -4457092588534259301}
   m_Layer: 0
   m_Name: Griffith
   m_TagString: Untagged
@@ -103,19 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.5
---- !u!114 &4007908807604070662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6867970042449984093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 847a8f0edac59b04dbb625e87943deea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isSentient: 1
 --- !u!50 &8364854356322095886
 Rigidbody2D:
   serializedVersion: 4
@@ -230,3 +217,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 10
+--- !u!114 &-4457092588534259301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6867970042449984093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca0c24aef23ac47b5c34e884fcfc4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 2041251876453815057, guid: 5cf650804c895834884a250b50e6b9e7, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ed10fbcd140babc4982ad62c7dfdc4ba, type: 2}
+  - {fileID: 11400000, guid: 61f29c76a51c9984b81c0ec2c1ab3acf, type: 2}

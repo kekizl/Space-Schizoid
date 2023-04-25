@@ -37,7 +37,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision){
       
-        if(collision.gameObject.TryGetComponent<HealthSystem>(out HealthSystem enemyComponent)){
+        if(collision.gameObject.TryGetComponent<PlayerHealth>(out PlayerHealth enemyComponent)){
             enemyComponent.TakeDamage(1);
         }
     }

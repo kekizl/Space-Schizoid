@@ -15,11 +15,10 @@ GameObject:
   - component: {fileID: 3128730287045981039}
   - component: {fileID: 1217017384421989328}
   - component: {fileID: 272944722364773462}
-  - component: {fileID: 7597117744600160589}
-  - component: {fileID: 6889024068238718558}
+  - component: {fileID: 3858185219368930820}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +122,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -160,7 +159,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.2}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -171,7 +170,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 1.2}
+  m_Size: {x: 0.9, y: 1.3}
   m_EdgeRadius: 0
 --- !u!114 &272944722364773462
 MonoBehaviour:
@@ -189,7 +188,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2716429434208849443, guid: c70e5d086a0442b4ba7d920ccc372b17, type: 3}
   bulletForce: 5
   delay: 6
---- !u!114 &7597117744600160589
+--- !u!114 &3858185219368930820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,21 +197,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2188999162817126102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 847a8f0edac59b04dbb625e87943deea, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f89954e8a3539640924647344582bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isSentient: 1
---- !u!114 &6889024068238718558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2188999162817126102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc3d6f91b4a9ce244b79986cc86904c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 10

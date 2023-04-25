@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5615825831278181767}
   - component: {fileID: 7634548403190545488}
   - component: {fileID: 5521919735191991144}
-  - component: {fileID: 1704804634093159377}
   - component: {fileID: 4792673280347589503}
   - component: {fileID: 7064779509729753177}
   - component: {fileID: 2505105065603101120}
   - component: {fileID: 2094012289742675081}
+  - component: {fileID: -570559043543566688}
   m_Layer: 0
   m_Name: Octopus
   m_TagString: Untagged
@@ -103,19 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
---- !u!114 &1704804634093159377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5090081720736969278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 847a8f0edac59b04dbb625e87943deea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isSentient: 1
 --- !u!50 &4792673280347589503
 Rigidbody2D:
   serializedVersion: 4
@@ -204,3 +191,19 @@ PolygonCollider2D:
       - {x: 0.60969836, y: -0.66769063}
       - {x: 0.65354264, y: -0.24074513}
       - {x: 0.39589182, y: 0.19364363}
+--- !u!114 &-570559043543566688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090081720736969278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca0c24aef23ac47b5c34e884fcfc4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 2041251876453815057, guid: 5cf650804c895834884a250b50e6b9e7, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ed10fbcd140babc4982ad62c7dfdc4ba, type: 2}
+  - {fileID: 11400000, guid: 61f29c76a51c9984b81c0ec2c1ab3acf, type: 2}
