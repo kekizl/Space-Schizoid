@@ -209,4 +209,9 @@ MonoBehaviour:
   droppedItemPrefab: {fileID: 2041251876453815057, guid: 5cf650804c895834884a250b50e6b9e7, type: 3}
   lootList:
   - {fileID: 11400000, guid: ed10fbcd140babc4982ad62c7dfdc4ba, type: 2}
-  - {fileID: 11400000, guid: 61f29c76a51c9984b81c0ec2c1ab3acf, type: 2}
+  - {fileID: 11400000, guid: 1dd4730c1d6a6894e8672ecefbe9230c, type: 2}
+  - {fileID: 11400000, guid: e2d02bab514a18844aa15034c20ce13f, type: 2}
+  - {fileID: 11400000, guid: 55a1ad646074a034ba898a6b6ee1fc8b, type: 2}
+  - {fileID: 11400000, guid: 50df1b812a0c10e43b13f63fa645ed88, type: 2}
+  - {fileID: 11400000, guid: c08013396834cb5459b7b9596decb9d7, type: 2}
+  - {fileID: 11400000, guid: 972a3dbe01a72ad43a4dd99e0d092fee, type: 2}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c81d8467b55483429b5f006dbac98fa, type: 3}
-  m_Name: Heart
+  m_Name: Meditation
   m_EditorClassIdentifier: 
-  lootSprite: {fileID: 1125566170, guid: 646bf2a7798546445af3116c3e1f986f, type: 3}
-  lootName: Heart
-  dropChance: 50
+  lootSprite: {fileID: -1136953334, guid: d37c537a108838c45a430afdd70ca936, type: 3}
+  lootName: Meditation
+  dropChance: 30

@@ -33,6 +33,23 @@ public class LootBag : MonoBehaviour
             GameObject lootGameObject = Instantiate(droppedItemPrefab, spawnPosition, Quaternion.identity);
             lootGameObject.GetComponent<SpriteRenderer>().sprite = droppedItem.lootSprite;
 
+            //apply tags to dropped loot
+            if(droppedItem.lootName == "Heart"){
+            lootGameObject.tag = "Heart";}
+            else if(droppedItem.lootName == "Therapist"){
+            lootGameObject.tag = "SanityBuff";}
+            else if(droppedItem.lootName == "Meditation"){
+            lootGameObject.tag = "SanityBuff";}
+            else if(droppedItem.lootName == "Anavar"){
+            lootGameObject.tag = "HealthUp";}
+            else if(droppedItem.lootName == "Dianabol"){
+            lootGameObject.tag = "HealthUp";}
+            else if(droppedItem.lootName == "Trenbolone"){
+            lootGameObject.tag = "Speed";}
+            else if(droppedItem.lootName == "Ketamine"){
+            lootGameObject.tag = "Speed";}
+
+
             float dropForce = 30f;
             Vector2 dropDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
             lootGameObject.GetComponent<Rigidbody2D>().AddForce(dropDirection * dropForce, ForceMode2D.Impulse);

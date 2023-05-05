@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bullet
+  - Heart
+  - Speed
+  - HealthUp
+  - SanityBuff
   layers:
   - Default
   - TransparentFX

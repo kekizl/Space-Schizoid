@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Player"){
-            SceneManager.LoadScene(1, LoadSceneMode.Single);
+            SceneManager.LoadScene(2, LoadSceneMode.Single);
         }
     }
 }

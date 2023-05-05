@@ -13,5 +13,4 @@ public class Loot : ScriptableObject
         this.lootName = lootName;
         this.dropChance = dropChance;
     }
-    
 }
